@@ -127,6 +127,7 @@
         delay: 3000,
       },
       slidesPerView: 2,
+      centeredSlides: true,
       grabCursor: true,
       slidesPerView: "auto",     
       pagination: {

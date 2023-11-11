@@ -11,8 +11,13 @@ a {
   text-decoration: none;
 }
 
+.navbar-brand img {
+  width: 125px;
+  height: 35px;
+}
+
 .navbar {
-  background-color: #ab4646 !important;
+  background-color: #8549e6 !important;
 }
 
 .navbar-nav>li>a {
@@ -27,7 +32,7 @@ a {
 }
 
 .navbar-nav>li>a:hover {
-  border-bottom: 2px solid #ab4646;
+  border-bottom: 2px solid #8549e6;
   border-radius: 40%;
 }
 
@@ -54,7 +59,7 @@ a {
   width: 100%;
   position: absolute;
   height: 100%;
-  background-color: #c79494;
+  background-color: #1c3459;
   clip-path: polygon(80% 0, 100% 0, 100% 50%, 100% 100%, 90% 100%);
   transition: 2s all;
 }
@@ -78,18 +83,14 @@ a {
 }
 
 .navbar-red {
-
-  background-color: red;
+  background-color: #8549e6;
   color: #fff;
 
 }
 
 .all-show {
-
   z-index: 10;
 }
-
-
 
 
 .custom-dropdown {
@@ -130,7 +131,7 @@ a {
 
 
 .custom-dropdown:hover .custom-dropdown-menu {
-  background: #e83b3b;
+  background: #8549e6;
   opacity: 1;
   display: block;
   top: 100%;
@@ -144,7 +145,7 @@ a {
 }
 
 .custom-dropdown-menu>li:hover {
-  background-color: #ab4646;
+  background-color: #1c3459;
 }
 
 html.hc-nav-yscroll {
@@ -824,16 +825,16 @@ ul {
   width: 100%;
   display: block;
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 .slider .main-slider .swiper-slide .container .name strong {
-  -webkit-text-stroke: 1px #fff;
+  /* -webkit-text-stroke: 1px #fff;
   text-stroke: 1px #fff;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  font-size: 50px;
+  -webkit-text-fill-color: transparent; */
+  color: #8549e6;
+  font-size: 35px;
 }
 
 
@@ -997,11 +998,11 @@ only screen and (max-device-width: 767px) {
   }
 
   .slider .main-slider .swiper-slide .container .name {
-    font-size: 50px;
+    font-size: 28px;
   }
 
   .slider .main-slider .swiper-slide .container .name strong {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .slider .main-slider .swiper-slide .container .description {
@@ -1095,8 +1096,9 @@ main {
 }
 
 .services-header p {
-  font-size: 20px;
-  font-weight: 300;
+  color: #a7a5a5;
+  font-size: 18px;
+  line-height: 33px;
 }
 
 .service-item svg {
@@ -1502,6 +1504,7 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
 .topClient .swiper-slide {
   margin: 0 !important;
   background-color: transparent;
@@ -1516,22 +1519,225 @@ main {
   width: 120px;
   border-radius: 50%;
 }
-.client-image img{
+
+.client-image img {
   height: 80px;
   width: 85px;
 }
 
-.client-title h4{
+.client-title h4 {
   padding: 5px 0px;
   font-size: 18px;
   font-weight: 600;
   color: #565656;
 }
 
+.talk-section {
+  background: linear-gradient(to right, rgba(77, 45, 183, 0.849), rgba(77, 45, 183, 0.849)), url('./../images/bg.jpeg');
+  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.talk-area h3 {
+  color: #c2bcbc;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 10px 0;
+}
+
+.talk-area h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+  padding-bottom: 10px;
+}
+
+.talk-area svg {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.number a {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #d4d2d2;
+  padding-left: 20px;
+}
+
+.number a:hover {
+  color: #ffffff;
+}
+
+.get-touch {
+  text-align: justify;
+  width: 90%;
+}
+
+.get-touch h3 {
+  color: #c2bcbc;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 10px 0;
+}
+
+.get-touch h5 {
+  color: #dcd8d8;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 10px 0;
+}
+
+.get-touch h5 {
+  color: #f4f4f4;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 10px 0;
+}
+
+.get-touch p {
+  color: #aeadad;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.social-icon svg {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 300;
+  padding: 0 5px;
+}
+.social-icon svg:hover{
+  color: #a7a4a4;
+}
+
+.team-title span{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 0;
+  color: #8549E6;
+}
+
+.team-title h2{
+  font-size: 30px;
+  font-weight: 700;
+  padding: 8px 0;
+}
+.team-title h5{
+  font-size: 18px;
+  color: #a7a4a4;
+}
+
+.avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -60px;
+  text-align: center;
+}
+.teamcolinner {
+  position: relative;
+}
+.avatar > img {
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(170 170 173/ 1);
+  box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+}
+.teamcolinner {
+  position: relative;
+  border: 1px dashed #ddd;
+  min-height: 100px;
+  background: #fff;
+  z-index: 9;
+}
+.teamcol {
+  margin-top: 80px;
+  padding: 8px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 1s ease-in-out;
+}
+.teamcol:hover {
+  transform: translateY(-30px);
+  box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+  transition: transform 1s ease-in-out;
+}
+.teamcol:before {
+  content: "";
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: -webkit-linear-gradient(#ffae11, #ffa000);
+  border-top-right-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.teamcol:after {
+  content: "";
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(#8549E6, #7c3be4);
+  border-bottom-left-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.teamcol:hover::before, .teamcol:hover::after {
+  width: 100%;
+  transition: width 1s ease-in-out;
+}
+.member-name {
+  margin-top: 80px;
+}
+.member-name h2{
+  font-size: 22px;
+}
+.team-position p{
+  font-size: 16px;
+  color: #aeadad;
+}
+.social-listing {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.social-listing >li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #f4f5f7;
+  border-radius: 50%;
+  margin: 5px;
+}
+.social-listing  svg{
+  color: #2c2222;
+}
 /* Main Section  End*/
 
 
 /* Footer -------------- */
+.footer-text img {
+  width: 125px;
+  height: 35px;
+}
+
 .footer ul {
   list-style-type: none;
   margin: 0;
@@ -1564,7 +1770,7 @@ main {
 
 .social>i:hover {
   color: #957bda;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .policy>div {
