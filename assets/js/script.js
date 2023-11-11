@@ -20,10 +20,10 @@
       loop: true,
       speed: 500,
       parallax: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   delay: 5000,
+      //   disableOnInteraction: false,
+      // },
       grabCursor: true,
       watchSlidesProgress: true,
       pagination: {

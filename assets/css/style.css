@@ -1005,11 +1005,6 @@ only screen and (max-device-width: 767px) {
     font-size: 35px;
   }
 
-  .slider .main-slider .swiper-slide .container .description {
-    display: none;
-  }
-
-
 
   .slider .main-slider .swiper-slide .container .play-btn {
     padding: 0 25px;
